@@ -1,0 +1,106 @@
+.bodyStatusContabil {
+    font: 400 28px Roboto, sans-serif;
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiasead;
+}
+
+.contentStatusContabil{
+    width: 95%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.titleContentStatusContabil{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+.spanTitleContentStatusContabil{
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 1%;
+}
+
+.inputDate{
+    width: 12%;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #000;
+    margin-left: 1%;
+}
+
+.buttonExportar{
+    width: 10%;
+    height: 35px;
+    margin-left:3%;
+    background: #01CC00;
+    border: 1px;
+    border-radius: 30px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 450;
+    transition: filter 0.2s;
+    text-decoration: none;
+    line-height: 35px;
+    border: 1px solid black;
+}
+
+.buttonExportar:hover{
+    filter: brightness(80%);
+}
+
+.contentGrafico{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top:1%;
+    margin-left: 5%;
+}
+
+.contentResults{
+    width: 100%;
+}
+
+.contentInternResultsGreen{
+    width: 50%;
+    height: 40px;
+    margin-left: 25%;
+    margin-top:1%;
+    text-align: center;
+    border: 2px solid black;
+    background-color: #013300;
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+
+.contentInternResultsGreen:hover{
+    filter: brightness(80%);
+}
+
+.contentInternResultsRed{
+    width: 50%;
+    height: 40px;
+    margin-left: 25%;
+    margin-top:1%;
+    text-align: center;
+    border: 2px solid black;
+    background-color: #990100;
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+
+.contentInternResultsRed:hover{
+    filter: brightness(80%);
+}
+
+.spanResults{
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}

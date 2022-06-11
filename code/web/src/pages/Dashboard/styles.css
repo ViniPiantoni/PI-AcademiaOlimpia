@@ -1,0 +1,226 @@
+.bodyDash {
+    font: 400 28px Roboto, sans-serif;
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiasead;
+}
+
+.dashboardContentTop{
+    width: 100%;
+    height: 200px;
+    margin-top: 2%;
+    display: flex;
+}
+
+.contentDespesasEReceitas{
+    width:40%;
+    height:85%;
+    border: 1px solid black;
+    margin-left: 2%;
+}
+
+.titleDespesasEReceitas{
+    width:100%;
+    height: 40px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    background-color: #F1F2ED;
+}
+
+.internContentDespesasEReceitas{
+    width:100%;
+    height: 80%;
+    display: flex;
+}
+
+.subContentInternDespesasEReceitas{
+    width:25%;
+    height:100%;
+    border-right: 1px solid black;
+}
+
+.subContentInternDespesasEReceitasLast{
+    width:25%;
+    height:100%;
+}
+
+.contentInternImage{
+    width: 100%;
+    height: 70%;
+    text-align: center;
+}
+
+.contentInternArea{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
+
+.spanInternDespesasEReceitasLast{
+    color: #5AA6D8;
+    font-weight: bold;
+    font-size: 15px;
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+
+.spanInternDespesasEReceitasLast:hover{
+    filter: brightness(80%);
+}
+
+.imgFuncionarioDash{
+    width:50%;
+    height:90%;
+    margin-top: 5%
+}
+
+.imgCaminhaoDash{
+    width:65%;
+    height:100%;
+    margin-top: 12%
+}
+
+.imgClienteDash{
+    width:50%;
+    height:90%;
+    margin-top: 5%
+}
+
+.imgContaDash{
+    width:45%;
+    height:95%;
+    margin-top: 7%
+}
+
+.contentRelatorio{
+    width:40%;
+    height:85%;
+    border: 1px solid black;
+    margin-left: 16%;
+}
+
+.titleRelatorio{
+    width:100%;
+    height: 40px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    background-color: #F1F2ED;
+}
+
+.internContentRelatorio{
+    width:100%;
+    height: 77%;
+    border-bottom: 1px solid black;
+}
+
+.InternContentRelatorioData{
+    width:100%;
+    height: 40%;
+    display: flex;
+    border-bottom: 1px solid black;
+    background-color: #fff;
+}
+
+.subInternContentRelatorioData{
+    width:50%;
+    height: 100%;
+    border-right: 1px solid black;
+    text-align: center;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.subInternContentRelatorioDataLast{
+    width:50%;
+    height: 100%;
+    padding-top: 5px;
+}
+
+.spanInternContentRelatorioData{
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 1%;
+}
+
+.spanInternContentRelatorioDataLast{
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 12%;
+}
+
+.inputDateDash{
+    width: 50%;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #000;
+    margin-left: 1%;
+    font-size: 14px;
+}
+
+.InternContentRelatorioButton{
+    width:100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+}
+
+
+.buttonGerarDash{
+    width: 33%;
+    height: 40px;
+    background: #01CC00;
+    border: 1px solid black;
+    border-radius: 30px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 450;
+    transition: filter 0.2s;
+    text-decoration: none;
+    line-height: 40px;
+    align-items: center;
+    margin-left: 33%;
+}
+
+.buttonGerarDash:hover{
+    filter: brightness(80%);
+}
+
+
+.spanTitle{
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.contentGraficos{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.contentInternGraficosPizza{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    border-right: 1px solid black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.contentInternGraficosBarra{
+    width: 50%;
+    height: 100%;
+    margin-left:3%;
+    margin-top: 1%;
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+}
